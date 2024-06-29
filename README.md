@@ -4,11 +4,11 @@
 [![npm downloads](https://img.shields.io/npm/dm/ulifyi-leaves.svg)](https://www.npmjs.com/package/ulifyi-leaves)
 [![GitHub license](https://img.shields.io/github/license/Ulifyi/ulifyi-leaves)](https://github.com/Ulifyi/ulifyi-leaves/blob/main/LICENSE)
 
-Ulifyi Leaves is a JavaScript library for generating unique Snowflake IDs similar to Twitter's Snowflake IDs. It allows you to easily integrate globally unique identifier generation into your applications.
+Ulifyi Leaves is a JavaScript library for generating unique Leaf IDs similar to Twitter's Snowflake IDs. It allows you to easily integrate globally unique identifier generation into your applications.
 
 ## Features
 
-- Generate unique Leave IDs.
+- Generate unique Leaf IDs.
 - Customizable machine ID.
 - Thread-safe ID generation.
 
@@ -31,7 +31,7 @@ const leaves = new Leaves(machineId);
 
 ## Examples
 
-### Generate Leave ID
+### Generate Leaf ID
 
 ```javascript
 const Leaves = require('./leaves');
@@ -46,7 +46,7 @@ for (let i = 0; i < 10; i++) {
 
 ## API Reference
 - `constructor(machineId: number)`: Initializes the Leaves instance with the provided machine ID.
-- `generateId()`: string: Generates a unique Leave ID.
+- `generateId()`: string: Generates a unique Leaf ID.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request.
